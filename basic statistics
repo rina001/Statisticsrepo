@@ -1,0 +1,17 @@
+x<-c(0,2,2,3,5,8,13,21,34)
+mean(x)
+median(x)
+sd(x) # calculates sample standard deviation
+var(x)# for sample variance
+x<-c(0,2,2,3,5,8,13,21,34)
+y<-log(x+1)
+#both cor and cov functions calcualte the correlation and covariance
+cor(x,y) 
+cov(x,y)
+#IF values not availabe(NA)
+x<-c(0,2,2,3,NA)
+mean(x)
+sd(x)
+x<-C(0,1,1,2,3,NA)
+mean(x,na.rm = TRUE)
+sd(x,na.rm = TRUE)
